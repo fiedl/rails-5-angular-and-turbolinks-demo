@@ -1,24 +1,29 @@
-# README
+# Demo: Angular and Turbolinks together
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<img src="screenshots/angular.gif" width="500" alt="Angular">
 
-Things you may want to cover:
+## Why?
 
-* Ruby version
+As demo application for stackoverflow: http://stackoverflow.com/a/15488920/2066546
 
-* System dependencies
+For the individual steps, take a look at the [commits](https://github.com/fiedl/rails-5-angular-and-turbolinks-demo/commits/master).
 
-* Configuration
+## Versions
 
-* Database creation
+* Rails 5.0
+* Angular 1.5.8
 
-* Database initialization
+## Setup
 
-* How to run the test suite
+```bash
+git clone git@github.com:fiedl/rails-5-angular-and-turbolinks-demo.git
+cd rails-5-angular-and-turbolinks-demo.git
+bundle install
+bin/rails server
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Next, visit http://localhost:3000.
 
-* Deployment instructions
+## License
 
-* ...
+(c) 2016, fiedl. MIT License.
