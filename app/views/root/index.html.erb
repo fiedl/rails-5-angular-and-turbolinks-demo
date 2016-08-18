@@ -1,5 +1,5 @@
 <p>
-  I can add: {{ 1+2 }}.
+  I can add: {{ <%= @next_page %> + 2 }}.
 </p>
 <p>
   <%= link_to "Go to page #{@next_page} via turbolinks", root_path(page: @next_page) %>
